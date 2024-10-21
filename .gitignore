@@ -1,0 +1,35 @@
+# Ignorar ambientes virtuais
+venv/
+env/
+
+# Ignorar dependências
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários
+*~
+*.tmp
+
+# Ignorar modelos treinados e dados temporários
+models/
+data/
+custom_images/
+results/
+
+# Ignorar arquivos de configuração de IDE
+.vscode/
+.idea/
+
+# Ignorar arquivos de saída de notebooks Jupyter
+.ipynb_checkpoints/
+
+# Ignorar arquivos de dados grandes (ex: imagens, datasets)
+*.h5
+*.csv
+*.xlsx
+*.json
